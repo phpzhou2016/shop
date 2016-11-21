@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="renderer" content="webkit">
+	<title>shop</title>
+	<script type="text/javascript" src="{$Think.config.index_web_static}js/jquery.min.js"></script>
+	<script type="text/javascript" src="{$Think.config.index_web_static}js/jquery-migrate-1.1.0.js"></script>
+	<script type="text/javascript" src="{$Think.config.index_web_static}js/swiper-3.3.1.min.js"></script>
+	<script type="text/javascript" src="{$Think.config.index_web_static}js/common.js"></script>
+
+	<link rel="stylesheet" href="{$Think.config.index_web_static}css/stlye.css">
+	<link rel="stylesheet" type="text/css" href="{$Think.config.index_web_static}css/swiper-3.3.1.min.css">
+	<link rel="stylesheet" href="{$Think.config.index_web_static}css/Iconfont/iconfont.css">
+	<link rel="stylesheet" href="{$Think.config.index_web_static}css/main.css">
+</head>
+<body>
+<!--S 头部-->
+{include file="index/header" /}
+<!--E 头部-->
+<!--S 内容-->
+<div id="container">
+	<!--S banner-->
+	<div class="banner">
+		<div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+	</div>
+	<!--E banner-->
+	<!--S 楼层标识-->
+	<!-- <div class="floor-flag">
+		<ul>
+			<li id="flag-1">1</li>
+			<li id="flag-2">2</li>
+			<li id="flag-3">3</li>
+			<li id="flag-4">4</li>
+			<li id="flag-5">5</li>
+		</ul>
+	</div> -->
+	<!--E 楼层标识-->
+	<div class="floor" id="floor-1">
+		<div class="content w1200">
+			<div class="title">
+				<h1 class="left">
+					<span>衣服/Clothes</span>
+					<div class="bd"></div>
+				</h1>
+				<div class="more">
+					<ul>
+						<li><a href="">大衣</a></li>
+						<li><a href="">上衣</a></li>
+						<li><a href="">女装</a></li>
+						<li><a href="">男装</a></li>
+						<li><a href="">更多</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="cont">
+				<div class="area1">
+					<div class="floor-1-icon">
+						<p>衣服</p>
+						<p>Clothes</p>
+					</div>
+					<div class="floor-1-brand">
+						<ul>
+							<li>
+								<a href="">1</a>
+							</li>
+							<li>
+								<a href="">2</a>
+							</li>
+							<li>
+								<a href="">3</a>
+							</li>
+							<li>
+								<a href="">4</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="area2">
+					<div class="floor-1-special">
+						<a href="">
+							<div class="img" style="background-image:url({$Think.config.index_web_static}images/04.jpg)"></div>
+							<div class="txt">
+								<p>撒旦撒旦决定撒旦撒旦决定</p>
+								<p>美国原装进口</p>
+								<p>低至100元</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="area3">
+					<ul>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/01.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/02.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg"><div class="img" style="background-image:url({$Think.config.index_web_static}images/03.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/02.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg"><div class="img" style="background-image:url({$Think.config.index_web_static}images/03.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/01.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="floor" id="floor-2">
+		<div class="content w1200">
+			<div class="title">
+				<h1 class="left">
+					<span>衣服/Clothes</span>
+					<div class="bd"></div>
+				</h1>
+				<div class="more">
+					<ul>
+						<li><a href="">大衣</a></li>
+						<li><a href="">上衣</a></li>
+						<li><a href="">女装</a></li>
+						<li><a href="">男装</a></li>
+						<li><a href="">更多</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="cont">
+				<div class="area1">
+					<div class="floor-1-icon">
+						<p>衣服</p>
+						<p>Clothes</p>
+					</div>
+					<div class="floor-1-brand">
+						<ul>
+							<li>
+								<a href="">1</a>
+							</li>
+							<li>
+								<a href="">2</a>
+							</li>
+							<li>
+								<a href="">3</a>
+							</li>
+							<li>
+								<a href="">4</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="area2">
+					<div class="floor-1-special">
+						<a href="">
+							<div class="img" style="background-image:url({$Think.config.index_web_static}images/04.jpg)"></div>
+							<div class="txt">
+								<p>撒旦撒旦决定撒旦撒旦决定</p>
+								<p>美国原装进口</p>
+								<p>低至100元</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="area3">
+					<ul>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/01.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/02.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg"><div class="img" style="background-image:url({$Think.config.index_web_static}images/03.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/02.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg"><div class="img" style="background-image:url({$Think.config.index_web_static}images/03.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/01.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="floor" id="floor-3">
+		<div class="content w1200">
+			<div class="title">
+				<h1 class="left">
+					<span>衣服/Clothes</span>
+					<div class="bd"></div>
+				</h1>
+				<div class="more">
+					<ul>
+						<li><a href="">大衣</a></li>
+						<li><a href="">上衣</a></li>
+						<li><a href="">女装</a></li>
+						<li><a href="">男装</a></li>
+						<li><a href="">更多</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="cont">
+				<div class="area1">
+					<div class="floor-1-icon">
+						<p>衣服</p>
+						<p>Clothes</p>
+					</div>
+					<div class="floor-1-brand">
+						<ul>
+							<li>
+								<a href="">1</a>
+							</li>
+							<li>
+								<a href="">2</a>
+							</li>
+							<li>
+								<a href="">3</a>
+							</li>
+							<li>
+								<a href="">4</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="area2">
+					<div class="floor-1-special">
+						<a href="">
+							<div class="img" style="background-image:url({$Think.config.index_web_static}images/04.jpg)"></div>
+							<div class="txt">
+								<p>撒旦撒旦决定撒旦撒旦决定</p>
+								<p>美国原装进口</p>
+								<p>低至100元</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="area3">
+					<ul>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/01.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/02.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg"><div class="img" style="background-image:url({$Think.config.index_web_static}images/03.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/02.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg"><div class="img" style="background-image:url({$Think.config.index_web_static}images/03.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/01.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="floor" id="floor-4">
+		<div class="content w1200">
+			<div class="title">
+				<h1 class="left">
+					<span>衣服/Clothes</span>
+					<div class="bd"></div>
+				</h1>
+				<div class="more">
+					<ul>
+						<li><a href="">大衣</a></li>
+						<li><a href="">上衣</a></li>
+						<li><a href="">女装</a></li>
+						<li><a href="">男装</a></li>
+						<li><a href="">更多</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="cont">
+				<div class="area1">
+					<div class="floor-1-icon">
+						<p>衣服</p>
+						<p>Clothes</p>
+					</div>
+					<div class="floor-1-brand">
+						<ul>
+							<li>
+								<a href="">1</a>
+							</li>
+							<li>
+								<a href="">2</a>
+							</li>
+							<li>
+								<a href="">3</a>
+							</li>
+							<li>
+								<a href="">4</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="area2">
+					<div class="floor-1-special">
+						<a href="">
+							<div class="img" style="background-image:url({$Think.config.index_web_static}images/04.jpg)"></div>
+							<div class="txt">
+								<p>撒旦撒旦决定撒旦撒旦决定</p>
+								<p>美国原装进口</p>
+								<p>低至100元</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="area3">
+					<ul>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/01.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/02.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg"><div class="img" style="background-image:url({$Think.config.index_web_static}images/03.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/02.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg"><div class="img" style="background-image:url({$Think.config.index_web_static}images/03.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/01.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="floor" id="floor-5">
+		<div class="content w1200">
+			<div class="title">
+				<h1 class="left">
+					<span>衣服/Clothes</span>
+					<div class="bd"></div>
+				</h1>
+				<div class="more">
+					<ul>
+						<li><a href="">大衣</a></li>
+						<li><a href="">上衣</a></li>
+						<li><a href="">女装</a></li>
+						<li><a href="">男装</a></li>
+						<li><a href="">更多</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="cont">
+				<div class="area1">
+					<div class="floor-1-icon">
+						<p>衣服</p>
+						<p>Clothes</p>
+					</div>
+					<div class="floor-1-brand">
+						<ul>
+							<li>
+								<a href="">1</a>
+							</li>
+							<li>
+								<a href="">2</a>
+							</li>
+							<li>
+								<a href="">3</a>
+							</li>
+							<li>
+								<a href="">4</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="area2">
+					<div class="floor-1-special">
+						<a href="">
+							<div class="img" style="background-image:url({$Think.config.index_web_static}images/04.jpg)"></div>
+							<div class="txt">
+								<p>撒旦撒旦决定撒旦撒旦决定</p>
+								<p>美国原装进口</p>
+								<p>低至100元</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="area3">
+					<ul>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/01.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/02.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg"><div class="img" style="background-image:url({$Think.config.index_web_static}images/03.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/02.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg"><div class="img" style="background-image:url({$Think.config.index_web_static}images/03.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div class="img-bg" ><div class="img" style="background-image:url({$Think.config.index_web_static}images/01.jpg);"></div></div>
+								<p class="tl">撒旦撒旦决定是否打算积分</p>
+								<p class="price">$5000.21</p>
+								<div class="bd">
+									<div class="b"></div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--E 内容-->
+<!--S 底部-->
+{include file="index/footer" /}
+<!--E 底部-->
+<!--S 其它-->
+<div id="backTop"></div>
+<!--E 其它-->
+</body>
+</html>
